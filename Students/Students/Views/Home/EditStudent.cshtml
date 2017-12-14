@@ -7,7 +7,7 @@
 @using (Html.BeginForm("EditStudent", "Home", FormMethod.Post))
 {
     <fieldset>
-        @Html.HiddenFor(m => m.Id)
+        @Html.HiddenFor(m => m.Number)
         <p>
             @Html.LabelFor(m => m.FirstName, "Имя")
             <br />
